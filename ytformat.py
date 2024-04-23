@@ -66,7 +66,7 @@ def run_shell_script():
         messagebox.showerror("Error", "Please enter a YouTube URL")
         return
 
-    script_path = "/usr/local/bin/yt_format.sh"  # Adjust to the correct relative or absolute path
+    script_path = "yt_format.sh"  # Adjust to the correct relative or absolute path
     command = [script_path, url, format]
     try:
         process = subprocess.run(command, check=True, text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, cwd=directory)

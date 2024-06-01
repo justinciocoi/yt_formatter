@@ -68,7 +68,7 @@ def run_shell_script():
         messagebox.showerror("Error", "Please enter a YouTube URL")
         return
 
-    script_path = "yt_formatter/scripts/yt_format.sh"  # Adjust to the correct relative or absolute path
+    script_path = "scripts/yt_format.sh"  # Adjust to the correct relative or absolute path
     absolute_script_path = os.path.abspath(script_path)
     command = [absolute_script_path, url, format]
     try:

@@ -5,5 +5,7 @@ This tool allows you to directly download publicly accessible YouTube videos to 
 In order to download the necessary dependencies, run:
 
 ```bash
-pip install -r requirements.txt
+pip install -r scripts/requirements.txt
 ```
+
+within the yt_formatter directory

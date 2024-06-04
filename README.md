@@ -8,4 +8,18 @@ In order to download the necessary dependencies, run:
 pip install -r scripts/requirements.txt
 ```
 
-within the yt_formatter directory
+within the yt_formatter directory.
+
+Next, make sure the shell script in the scripts directory is made exectuable using the following command
+
+```bash
+chmod +x scripts/yt_format.sh
+```
+
+Now, running the python script `ytformat.py` will open the application window with fields for youtube URL, file extension, and directory. This allows you to download youtube content in a variety of formats directly to your machine in a directory of your choosing. This tool uses yt-dlp and ffmpeg extensively to achieve the goal of fetching data from youtube and file conversion operations. 
+
+With python installed on your machine, run the following in your terminal to launch the application
+
+```bash
+python3 ytformat.py
+```

@@ -29,7 +29,7 @@ instr2.pack(pady=20)
 instr2.config(bg="#451515")
 
 ### DROPDOWN MENU FOR FORMAT        
-options = ["mp4", "mp3", "avi"]
+options = ["mp4", "mp3", "aac"]
 selected_option = tk.StringVar(root)
 selected_option.set(options[0])  # Set the default option
 dropdown = tk.OptionMenu(root, selected_option, *options)

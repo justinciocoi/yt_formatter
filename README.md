@@ -2,6 +2,12 @@
 
 This tool allows you to directly download publicly accessible YouTube videos to a specified directory on your local machine in a specified format. This allows you to download videos or seamlessly extract audio from any video on the platform. 
 
+First, you must clone the repository and navigate into the resulting directory
+
+```bash
+git clone https://github.com/justinciocoi/yt_formatter && cd yt_formatter
+```
+
 In order to download the necessary dependencies, run:
 
 ```bash
@@ -23,3 +29,5 @@ With python installed on your machine, run the following in your terminal to lau
 ```bash
 python3 ytformat.py
 ```
+
+This application was developed for and tested on macOS Sonoma 14.4

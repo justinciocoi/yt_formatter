@@ -32,4 +32,4 @@ python3 ytformat.py
 
 This application was developed for and tested on macOS Sonoma 14.4
 
-![Imgur](https://imgur.com/hOCqsep)
+![](https://i.imgur.com/hOCqsep.png)
